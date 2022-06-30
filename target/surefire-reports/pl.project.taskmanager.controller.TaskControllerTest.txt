@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: pl.project.taskmanager.controller.TaskControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.365 s <<< FAILURE! - in pl.project.taskmanager.controller.TaskControllerTest
+updateTask_shouldReturnStatusOkAndFilledTaskFormAsViewNameAndTaskAsAttribute(pl.project.taskmanager.controller.TaskControllerTest)  Time elapsed: 0.286 s  <<< FAILURE!
+java.lang.AssertionError: View name expected:<views/filledTaskForm> but was:<forms/task-edit>
+	at pl.project.taskmanager.controller.TaskControllerTest.updateTask_shouldReturnStatusOkAndFilledTaskFormAsViewNameAndTaskAsAttribute(TaskControllerTest.java:41)
+

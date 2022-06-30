@@ -1,0 +1,9 @@
+pl\project\taskmanager\controller\StaticPageControllerTest.class
+pl\project\taskmanager\controller\RegisterControllerTest.class
+pl\project\taskmanager\controller\IndexControllerTest.class
+pl\project\taskmanager\service\RoleServiceImplTest.class
+pl\project\taskmanager\service\UserServiceImplTest.class
+pl\project\taskmanager\TaskManagerApplicationTests.class
+pl\project\taskmanager\controller\TaskControllerTest.class
+pl\project\taskmanager\service\TaskServiceImplTest.class
+pl\project\taskmanager\controller\LoginControllerTest.class

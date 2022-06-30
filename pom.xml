@@ -8,10 +8,10 @@
         <version>2.1.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>pl.rengreen</groupId>
+    <groupId>pl.project</groupId>
     <artifactId>task-manager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>task-manager</name>
+    <name>task_manager</name>
     <description>Spring Boot application for task management</description>
 
     <properties>
@@ -82,6 +82,12 @@
             <groupId>org.webjars</groupId>
             <artifactId>datatables</artifactId>
             <version>1.9.4-2</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.18</version>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 
